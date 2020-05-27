@@ -41,9 +41,9 @@ Shader "Test/Chapter-DiffuseVertexLevel"
 				// fixed3 worldNormal = v.normal;
 				fixed3 worldLight = normalize(_WorldSpaceLightPos0.xyz);
 
-				fixed3 tempColor = fixed3(0.5f, 0.5f, 0.5f)
-				// fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * saturate(dot(worldNormal, worldLight));
-				fixed3 diffuse = tempColor.rgb * _Diffuse.rgb * saturate(dot(worldNormal, worldLight));
+				// fixed3 tempColor = fixed3(0.5f, 0.5f, 0.5f)
+				fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * saturate(dot(worldNormal, worldLight));
+				// fixed3 diffuse = tempColor.rgb * _Diffuse.rgb * saturate(dot(worldNormal, worldLight));
 
 				// o.color = ambient + diffuse;
 				o.color = ambient + diffuse;
