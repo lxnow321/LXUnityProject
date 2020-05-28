@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DiffuseVertexLevelMat
-  m_Shader: {fileID: 4800000, guid: 9bd547a1596a0334b8cd0f091a98f8c2, type: 3}
+  m_Name: SpecularPixelLevelMat
+  m_Shader: {fileID: 4800000, guid: c635f3b078226b74e93c871288825891, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -59,6 +59,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Gloss: 8
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -75,3 +76,4 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Diffuse: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}

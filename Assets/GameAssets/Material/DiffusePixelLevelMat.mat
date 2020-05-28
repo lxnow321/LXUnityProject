@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: DiffuseVertexLevelMat
-  m_Shader: {fileID: 4800000, guid: 9bd547a1596a0334b8cd0f091a98f8c2, type: 3}
+  m_Name: DiffusePixelLevelMat
+  m_Shader: {fileID: 4800000, guid: 7b92028ca4481b944bfb33b5ecbe0c97, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
